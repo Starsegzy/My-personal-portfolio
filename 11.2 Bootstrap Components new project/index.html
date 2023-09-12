@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  <style>
+
+    .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./briefcase-fill.svg" alt="personalsite brand icon" height="30">Personal Site</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Postcode" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">We Can Help You!</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">We offer professional web design services at affordable rates to help your business attract more visitors and keep them on your site! More than beautiful design, we build websites with a complete strategy designed to turn your site visitors into customers.
+
+        As many as 82% of customers are doing online research before they contact you about products or services. Is your website doing enough to turn those researchers into buyers?
+        
+        We are passionate about making beautiful websites to help you attract and retain customers for your small business.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a class="btn btn-primary" href="contact-me.html" role="button">Contact us</a>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./pexels-luis-gomes-546819.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">WEB DESIGN & DEVELOPMENT</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./pencil-fill.svg" alt="pencil-fill" height="30">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">STRATEGY DRIVEN DESIGN</h3>
+        <p>We create websites that look great, but with a strategy in place to help convert more website visitors into customers and set you up for success.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./wordpress.svg" alt="wordpress" height="30">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">WORDPRESS DEVELOPMENT</h3>
+        <p>We create WordPress websites using the latest techniques, trends, and tools. When we're finished, you can manage your content with ease.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./phone.svg" alt="phone "height="30">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">RESPONSIVE WEBSITES</h3>
+        <p>A large portion of your customers will be accessing your website from their phone. Our web designs are created to look great on many types of devices.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pexels-pew-nguyen-13162091.jpg" class="d-block w-100" alt="pexels-pew-nguyen-13162091">
+      </div>
+      <div class="carousel-item">
+        <img src="./pexels-roberto-nickson-7238759.jpg" class="d-block w-100" alt="pexels-roberto-nickson-7238759">
+      </div>
+      <div class="carousel-item">
+        <img src="./pexels-karolina-grabowska-7876708.jpg" class="d-block w-100" alt="pexels-karolina-grabowska-7876708">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="my-5">
+  <div class="p-5 text-center bg-body-tertiary">
+    <div class="container py-5">
+      <h2 class="text-body-emphasis">Our Web Design & Development Process</h2>
+      <p class="col-lg-8 mx-auto lead">
+        When it comes to <code>web design and development,</code> it's pretty important to work with a company that knows how to get things done. We have a systematic process that allows us to work with you at your pace, but also creates an atmosphere that empowers you to participate in the process. We're working together on this project. It's a collaboration, and not a dictatorship. Please read our web design and development process below to learn more about the steps involved in bringing your website to fruition.
+      </p>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-sm-12">
+      <img src="./techcrunch.png" alt="techcrunch" height="30">
+    </div>
+    <div class="col-lg-3 col-sm-12">
+      <img src="./mashable.png" alt="mashable" height="30">
+    </div>
+    <div class="col-lg-3 col-sm-12">
+      <img src="./bizinsider.png" alt="bizinsider" height="30">
+    </div>
+    <div class="col-lg-3 col-sm-12">
+      <img src="./tnw.png" alt="tnw" height="30">
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="container">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h2 class="display-4 fw-normal text-body-emphasis">A plan for every learner</h2>
+    <p class="fs-5 text-body-secondary">Simple and affordable price plans for you.</p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Free</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>HTML COMPONENT</li>
+            <li>HELP CENTER ACCESS</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Hourly</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>HTML FULL CLASS</li>
+            <li>CSS FULL CLASS</li>
+            <li>JAVA SCRIPT</li>
+            <li>BOOTSTRAP</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+        <div class="card-header py-3 text-bg-primary border-primary">
+          <h4 class="my-0 fw-normal">Day Rate</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>HTML FULL CLASS</li>
+            <li>CSS FULL CLASS</li>
+            <li>JAVA SCRIPT & BOOTSTRAP</li>
+            <li>UI/UX</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section id="footer" class="gradient-background">
+<div class="container">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
+    <div class="col mb-3">
+      
+      <p class="text-body-secondary">© Starsegzy</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</section>
+
+</html>
